@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package gateway;
+
+message Word {
+    string word = 1;
+}
+
+message Response {
+    string response = 1;
+}
+
+message Empty {}
+
+service AppController {
+    rpc GuessWord (Word) returns (Response) {}
+}
