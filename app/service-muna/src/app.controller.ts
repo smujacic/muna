@@ -8,7 +8,6 @@ export class AppController {
 
   @GrpcMethod()
   guessWord(payload: any): any {
-    console.log(payload);
     return this.appService.guessWord(payload);
   }
 }
