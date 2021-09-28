@@ -49,3 +49,6 @@ $ yarn start:dev
 # production mode
 $ yarn start:prod
 ```
+
+
+Api endpoint is http://localhost:3000/api/ok where `ok` is param and can be changed. This is guessing game, so response depends on param you provide.
