@@ -29,13 +29,15 @@
 ## Installation
 
 Application is separate in two segments. Api gateway and microservice. 
-To setup project, you need to go to the each of that directory (app/api-gateway and app/service-muna) and execute this few commands.
+To setup project, you need to go to the each of that directory (app/api-gateway and app/service-muna) and execute this command.
 
 ```bash
 $ yarn install
 ```
 
 ## Running the app
+
+After package installation, you can run app with one of these commands.
 
 ```bash
 # development
